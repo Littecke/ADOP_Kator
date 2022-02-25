@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kata2_IEquatable", "Kata2_IEquatable\Kata2_IEquatable.csproj", "{4D79FF7E-44AB-4CA2-88F6-C583FDDC0638}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DA621887-9F40-48BE-B3CC-E3067DF76876}"
+	ProjectSection(SolutionItems) = preProject
+		Kata2.txt = Kata2.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D79FF7E-44AB-4CA2-88F6-C583FDDC0638}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D79FF7E-44AB-4CA2-88F6-C583FDDC0638}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D79FF7E-44AB-4CA2-88F6-C583FDDC0638}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D79FF7E-44AB-4CA2-88F6-C583FDDC0638}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F7CBFED-753B-4EC5-9D71-523CA224FF4E}
+	EndGlobalSection
+EndGlobal

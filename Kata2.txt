@@ -1,0 +1,40 @@
+Kata2
+
+Du nu enkapsulera en lista av Medlemmar i ett Hotell lojalitets program. 
+Du ska också implementera relevanta Interfaces och IEquatable<Member> and IComparable <Member>.
+
+Uppgifter:
+
+
+ÖVNING DEL 1
+1. Implementera IMember i en klass Member
+	- Implementera IComparable så att medlemmar sorteras efter bonusnivå, efternamn, förnamn, medlemsdatum
+	- Implementera RandomInit()
+	- Implementera en constructor som skapar en instans av Member initierad med slumpmässiga värden
+	- Override ToString() för att skriva ut medlemsdata
+	- Implementera IEquitable<>
+		- Kom ihåg legacy: override bool Equals(object obj) => Equals(obj as IMember);
+		- override int GetHashCode() =>
+
+2. Skriv några kodrader i Program.Main() som testar att skapa instanser av Member.
+	- Använda IMember som typ så länge det går.
+
+
+ÖVNING DEL 2
+3. Implementera IMemberList i en class, MemberList
+	- Förutom när du skapar en instans av Member, använd typen IMember
+	- En constructor(int NrOfMembers), som skapar en lista med NrOfMembers slumpmässigt initierade Members
+	- Override ToString() för att skriva ut kluster om 10 medlemmar 
+
+4. Skriv några kodrader i Program.Main() som skapar en sorterad medlemslista för Hilton med 20 medlemmar
+   och en för Radisson med 20 medlemmar
+
+5. Lägg till en class indexer property så att man kan läsa en enskilld medlem i listan 
+
+Lycka till!
+
+
+
+PSST! Ideer för att göra en RandomInit() finns i program
+
+ 
