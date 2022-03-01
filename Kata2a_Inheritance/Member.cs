@@ -1,6 +1,6 @@
 ﻿using Kata2a_Inheritance;
 
-namespace Kata2_IEquatable
+namespace Kata2a_Inheritance
 {
     internal class Member : IMember
     {
