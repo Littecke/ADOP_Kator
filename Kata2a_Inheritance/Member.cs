@@ -2,13 +2,14 @@
 
 namespace Kata2a_Inheritance
 {
-    internal class Member : IMember
+    abstract class Member : IMember
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string City { get; set; }
         public MemberLevel Level { get; set; }
         public DateTime Since { get; set; }
+        public virtual string[] Benefits { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
 
         public int CompareTo(IMember other)
         {
@@ -72,7 +73,7 @@ namespace Kata2a_Inheritance
                 return member;
             }
         }
-        public override string ToString() => $"{FirstName} {LastName} is a {Level} member since {Since.Year}-{Since.Month}-{Since.Day}\n";
+        public override string ToString() => $"{FirstName} {LastName} is a {Level} member since {Since.Year} {GetType().Name} {Benefits}\n";
         
         /*
         static DateTime RandomDate()

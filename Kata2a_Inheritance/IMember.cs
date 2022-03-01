@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Kata2a_Inheritance
 {
-    public enum MemberLevel { Platinum, Gold, Silver, Blue}
+    public enum MemberLevel { Platinum, Gold, Silver, Blue }
     public interface IMember: IEquatable<IMember>, IComparable<IMember>
     {
         public string FirstName { get; set; }
@@ -15,10 +15,8 @@ namespace Kata2a_Inheritance
         public DateTime Since { get; set; }
 
         public string[] Benefits { get; set; }
-
-        public interface IRadissonMember : IMember { }
-        public interface IHiltonMember : IMember { }
-
         public void RandomInit();
     }
+    public interface IRadissonMember : IMember { }
+    public interface IHiltonMember : IMember { }
 }

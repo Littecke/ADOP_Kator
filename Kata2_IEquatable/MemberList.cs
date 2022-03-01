@@ -32,7 +32,7 @@ namespace Kata2_IEquatable
             string sRet = "";
             for (int i = 0; i < ListOfMembers.Count; i++)
             {
-                sRet += $"{ListOfMembers[i],-20:d}";
+                sRet += $"{ListOfMembers[i],-20}";
 
                 if ((i + 1) % 10 == 0)
                 {
@@ -53,7 +53,6 @@ namespace Kata2_IEquatable
             }
             return count;
         }
- 
         public void Sort() => ListOfMembers.Sort();
     }
 }
